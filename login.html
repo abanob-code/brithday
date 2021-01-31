@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+	 <html> 
+		<head>
+				<meta charset="utf-8">
+				<title> login</title>
+
+            <link rel="icon" type="image/png"
+    href="https://www.express.com/content/dam/express/2020/projects/digital/web/inline-content/03-march/0318-digital-2943-m-luxe-comfort-knit/-dt/m-luxe-comfort-p7-dt.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+			</head>
+			<style>
+		.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+           
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 7%;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: #555;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #555;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+                
+                
+		/*  اللوجو */
+		
+                .logo{ float: right; margin-top:-80px; position: relative;}	
+                
+                
+		
+		body {
+  background-image: url("https://myupdateweb.com/wp-content/uploads/2018/02/7010171-girl-bregje-heinen-model-fashion-1.jpg");
+  background-repeat:no-repeat;
+ background-size:100%; }
+ 
+                
+                
+                
+                
+ //* FORM *//
+                
+ 
+    * {
+  box-sizing: border-box; 
+}
+
+                input[type=text] ,input[type=password], select {
+  width: 40%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 2px;
+  resize: vertical;
+
+}
+
+label {
+  padding: 0px 0px 0px 0;
+  display: inline-block;
+
+}
+
+
+
+.sma {
+  border-radius: 5px;
+  background-color:#a1887f ;
+  padding: 1px;
+        width: 33%;
+
+}
+
+.kms {
+  float: left;
+  width: 1px;
+  margin-top: 1px;
+}
+
+.tom {
+  float: left;
+  width: 800px;
+  margin-top: 6px;
+}
+
+
+.A2:after {
+  content: "";
+  display: table;
+  clear: both;
+    
+}
+
+
+@media screen and (max-width: 200px) {
+  .kms, .tom, input[type=submit] {
+    width: 50%;
+    margin-top: 0;
+  }
+}
+         
+        input[type=submit] {
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}        
+                
+    
+       .footer-main{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background: lightgray;
+        padding: 20px 0px;
+
+                }
+
+    .footer-section-one{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .footer-section-one ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .footer-section-one ul li{
+        display: inline-block;
+        margin: 0px 20px;
+    }
+    .footer-section-one ul li a{
+        font-family: sans-serif;
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .footer-social-icons{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .footer-social-icons ul{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .footer-social-icons ul li{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin: 0px 10px;
+        border-radius: 100%;
+        background: #32cd32;
+    }
+
+    .footer-social-icons ul li a{
+        color: black;
+        font-size: 25px;
+        display: block;
+    }
+
+    .footer-social-icons ul li a i{
+        line-height: 50px;
+    }
+
+    .follow{
+        text-align: center;
+        display: block;
+        padding-bottom: 20px;
+        font-size: 28px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+
+    .copy-right{
+        text-align: center;
+        display: block;
+        padding-top: 20px;
+    }         
+                
+         </style>
+         
+         
+         
+         
+         
+          <body>
+                <div class="navbar">
+  <a class="active" href="home.html"><center>Home</center></a> 
+  <a href="services.html"><center> Services</center> </a> 
+  <a href="about.html"><center> About</center> </a> 
+  <a href="contact us.html"><center>Contact us</center> </a>
+  <a href="login.html"><center>Login</center></a>
+                 
+</div>
+              <br>
+				   <!--  اللوجو   -->
+                     <div class="logo"> 
+					 <img src="https://l.top4top.io/p_1540slw6g1.png" title="logo" alt="SMA Logo" width="100" height="60" /> 
+					
+			</div>  
+            
+			 
+             
+              <h2> Create account</h2>
+              <div class="sma">
+  <form action="/action_page.php">
+    
+  <div class="A2">
+    <div class="KMS">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="tom">
+      <input type="text" id="fname" name="firstname" placeholder="First Name*">
+    </div>
+      </div>
+      
+      
+       <div class="A2">
+    <div class="kms">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="tom">
+      <input type="text" id="lname" name="lastname" placeholder="Last Name*">
+    </div>
+  </div>
+      
+      <div class="A2">
+    <div class="kms">
+      <label for="Gender">Gender</label>
+    </div>
+    <div class="tom" style="width: 853px">
+      <select id="Gender" name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        
+      </select>
+    </div>
+  </div>
+  <div class="A2">
+    <div class="kms">
+      <label for="email">Email</label>
+    </div>
+    <div class="tom">
+      <input type="text" id="email" name="email" placeholder="Email*">
+    </div>
+  </div>
+      
+      <div class="A2">
+    <div class="kms">
+      <label for="Password">Password</label>
+    </div>
+    <div class="tom">
+      <input type="password" id="Password" name="Password" placeholder="Password*">
+    </div>
+  </div>
+      
+      
+      
+      <div class="A2">
+    <div class="kms">
+      <label for="mobilenum">Mobile Number</label>
+    </div>
+    <div class="tom">
+      <input type="text" id="mobilenum" name="Mobile Number" placeholder="Mobile Number*">
+    </div>
+  </div>
+<!--      <a href="./home.html">gggggg </a>-->
+      
+      <input type="submit"  target="_blank" formaction="./home.html" value="login" > 
+      
+    
+      
+                  </form>
+              </div> <br><br><br>
+              
+     
+        <footer class="footer-main">
+  <div class="footer-section-one">
+    <ul>
+      <li><a class="current" href="home.html">Home</a></li>
+      <li><a href="page2.html">Return Policy</a></li>
+      <li><a href="page3.html">About Us</a></li>
+      <li><a href="page4.html">Contact us</a></li>
+    </ul>
+  </div>
+  <div class="follow">
+    Follow us in Social Media
+  </div>
+  <div class="footer-social-icons">
+    <ul>
+      <li><a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://twitter.com/" target="blank"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://www.youtube.com/" target="blank"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+  </div>
+  <div class="copy-right">
+    &#9400 2020, Assiut University, By Aml Mokhtar
+
+  </div>
+</footer>         
+              
+         </body>
+         
+</html>
+              
+              
